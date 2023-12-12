@@ -9,7 +9,9 @@ This repository contains the source code for a basic ray tracer implemented as p
 
 - [Objectives](#objectives)
 - [Specifications](#specifications)
-- [Usage](#usage)
+- [Getting Started](#getting-started)
+- [Sample Scenes](#sample-scenes)
+
   
 ## Objectives
 
@@ -24,7 +26,7 @@ Ray tracing is a fundamental rendering algorithm commonly used for animations an
 - Supports point and ambient light sources.
 - Uses a parser for scene file and a PPM writer provided in the project template.
 
-## Usage
+## Getting Started
 
 1. **Clone the Repository:**
 
@@ -41,3 +43,13 @@ Ray tracing is a fundamental rendering algorithm commonly used for animations an
    ```bash
    ./raytracer scene.xml
   
+## Sample Scenes
+
+Sample scenes can be found on scenes folder in the main directory.
+
+### Usage
+
+To use a sample scene, you can specify the path to the XML scene file when running the ray tracer. For example:
+
+```bash
+./raytracer scenes/simple.xml
