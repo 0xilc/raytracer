@@ -8,14 +8,21 @@ This repository contains the source code for a basic ray tracer implemented as p
 ## Table of Contents
 
 - [Objectives](#objectives)
+- [Features](#features)
 - [Specifications](#specifications)
 - [Getting Started](#getting-started)
 - [Sample Scenes](#sample-scenes)
 
-  
 ## Objectives
 
 Ray tracing is a fundamental rendering algorithm commonly used for animations and architectural simulations. The objective of this project is to implement a basic ray tracer that simulates the propagation of light in the real world.
+
+## Features
+
+- **BVH Algorithm:** Accelerate ray-triangle intersection tests using the BVH (Bounding Volume Hierarchy) algorithm for improved performance.
+
+- **Multi-Threading:** Utilize multi-threading to parallelize ray tracing computations, enhancing rendering speed on multi-core processors.
+
 
 ## Specifications
 
